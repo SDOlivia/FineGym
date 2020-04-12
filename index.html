@@ -203,8 +203,9 @@
 		  To take action recognition to a new level, we develop FineGym, a new dataset built on top of gymnasium videos.
 		  Compared to existing action recognition datasets, FineGym is distinguished in richness, quality, and diversity.
 		  In particular, it provides temporal annotations at both action and sub-action levels with a three-level semantic hierarchy.
-		  For example, a "balance beam" event will be annotated as a sequence of elementary sub-actions derived from five sets:
-		  "leap-jumphop", "beam-turns", "flight-salto", "flight-handspring", and "dismount", where the sub-action in each set will be further annotated with finely defined class labels.
+		  For example, a <i>"balance beam"</i> event will be annotated as a sequence of elementary sub-actions derived from five sets:
+		  <i>"leap-jumphop"</i>, <i>"beam-turns"</i>, <i>"flight-salto"</i>, <i>"flight-handspring"</i>, and <i>"dismount"</i>, 
+		  where the sub-action in each set will be further annotated with finely defined class labels.
 		  This new level of granularity presents significant challenges for action recognition, e.g. how to parse the temporal structures from a coherent action, and how to distinguish between subtly different action classes.
 		  We systematically investigate representative methods on this dataset and obtain a number of interesting findings. We hope this dataset could advance research towards action understanding.
   		  <br><br>
@@ -233,6 +234,56 @@
 	      <br><br>
 		  <hr>
 
+		  <table align=center width=720px>
+			<center><h1>Examples</h1></center>
+			<tr>
+				<center>
+				<span style="font-size:14px">
+					We present several examples of fine-grained sub-action instances.
+					Each group belongs to three element categories within a same event (BB, FX, UB, and VT).
+					It can be seen such fine-grained instances contain subtle and challenging differences.<br>
+					(hover on the GIF for a 0.25x slowdown)</span>
+				<br>
+				</center>
+				<td width=360px>
+					<center>
+						<span style="font-size:22px"><a>Balance Beam (BB)</a></span><br>
+						<a><img onmouseover="this.src='./resources/examples/example_bb_01_slow.gif';" onmouseout="this.src='./resources/examples/example_bb_01_normal.gif';" src = "./resources/examples/example_bb_01_normal.gif" width = "100px"></a>
+						<a><img onmouseover="this.src='./resources/examples/example_bb_02_slow.gif';" onmouseout="this.src='./resources/examples/example_bb_02_normal.gif';" src = "./resources/examples/example_bb_02_normal.gif" width = "100px"></a>
+						<a><img onmouseover="this.src='./resources/examples/example_bb_03_slow.gif';" onmouseout="this.src='./resources/examples/example_bb_03_normal.gif';" src = "./resources/examples/example_bb_03_normal.gif" width = "100px"></a>
+					</center>
+				</td>
+				<td width=360px>
+					<center>
+						<span style="font-size:22px"><a>Floor Exercise (FX)</a></span><br>
+						<a><img onmouseover="this.src='./resources/examples/example_fx_01_slow.gif';" onmouseout="this.src='./resources/examples/example_fx_01_normal.gif';" src = "./resources/examples/example_fx_01_normal.gif" width = "100px"></a>
+						<a><img onmouseover="this.src='./resources/examples/example_fx_02_slow.gif';" onmouseout="this.src='./resources/examples/example_fx_02_normal.gif';" src = "./resources/examples/example_fx_02_normal.gif" width = "100px"></a>
+						<a><img onmouseover="this.src='./resources/examples/example_fx_03_slow.gif';" onmouseout="this.src='./resources/examples/example_fx_03_normal.gif';" src = "./resources/examples/example_fx_03_normal.gif" width = "100px"></a>
+					</center>
+				</td>
+			</tr>
+			<tr>
+				<td width=360px>
+					<center>
+						<span style="font-size:22px"><a>Uneven Bar (UB)</a></span><br>
+						<a><img onmouseover="this.src='./resources/examples/example_ub_01_slow.gif';" onmouseout="this.src='./resources/examples/example_ub_01_normal.gif';" src = "./resources/examples/example_ub_01_normal.gif" width = "100px"></a>
+						<a><img onmouseover="this.src='./resources/examples/example_ub_02_slow.gif';" onmouseout="this.src='./resources/examples/example_ub_02_normal.gif';" src = "./resources/examples/example_ub_02_normal.gif" width = "100px"></a>
+						<a><img onmouseover="this.src='./resources/examples/example_ub_03_slow.gif';" onmouseout="this.src='./resources/examples/example_ub_03_normal.gif';" src = "./resources/examples/example_ub_03_normal.gif" width = "100px"></a>
+					</center>
+				</td>
+				<td width=360px>
+					<center>
+						<span style="font-size:22px"><a>Vault (VT)</a></span><br>
+						<a><img onmouseover="this.src='./resources/examples/example_vt_01_slow.gif';" onmouseout="this.src='./resources/examples/example_vt_01_normal.gif';" src = "./resources/examples/example_vt_01_normal.gif" width = "100px"></a>
+						<a><img onmouseover="this.src='./resources/examples/example_vt_02_slow.gif';" onmouseout="this.src='./resources/examples/example_vt_02_normal.gif';" src = "./resources/examples/example_vt_02_normal.gif" width = "100px"></a>
+						<a><img onmouseover="this.src='./resources/examples/example_vt_03_slow.gif';" onmouseout="this.src='./resources/examples/example_vt_03_normal.gif';" src = "./resources/examples/example_vt_03_normal.gif" width = "100px"></a>
+					</center>
+				</td>
+			</tr>
+		  </table>
+
+		  <br><br>
+		  <hr>
 
 		  <table align=center width=720px>
 			<center><h1>Download</h1></center>
