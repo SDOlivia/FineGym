@@ -1,0 +1,530 @@
+Glabel:   0; set:  1; (VT) round-off, flic-flac with 0.5 turn on, stretched salto forward with 1.5 turn off
+Glabel:   1; set:  1; (VT) round-off, flic-flac with 0.5 turn on, stretched salto forward with 0.5 turn off
+Glabel:   2; set:  1; (VT) round-off, flic-flac with 0.5 turn on, stretched salto forward with 1 turn off
+Glabel:   3; set:  1; (VT) round-off, flic-flac with 0.5 turn on, stretched salto forward with 2 turn off
+Glabel:   4; set:  1; (VT) round-off, flic-flac with 0.5 turn on, stretched salto forward off
+Glabel:   5; set:  1; (VT) round-off, flic-flac with 0.5 turn on, 0.5 turn to piked salto backward off
+Glabel:   6; set:  1; (VT) round-off, flic-flac with 0.5 turn on, piked salto forward with 1.5 turn off
+Glabel:   7; set:  1; (VT) round-off, flic-flac with 0.5 turn on, piked salto forward with 0.5 turn off
+Glabel:   8; set:  1; (VT) round-off, flic-flac with 0.5 turn on, piked salto forward with 1 turn off
+Glabel:   9; set:  1; (VT) round-off, flic-flac with 0.5 turn on, piked salto forward off
+Glabel:  10; set:  1; (VT) round-off, flic-flac with 0.5 turn on, tucked salto forward with 1.5 turn off
+Glabel:  11; set:  1; (VT) round-off, flic-flac with 0.5 turn on, tucked salto forward with 0.5 turn off
+Glabel:  12; set:  1; (VT) round-off, flic-flac with 0.5 turn on, tucked salto forward with 1 turn off
+Glabel:  13; set:  1; (VT) round-off, flic-flac with 0.5 turn on, tucked salto forward off
+Glabel:  14; set:  1; (VT) round-off, flic-flac with 1 turn on, stretched salto backward with 1 turn off
+Glabel:  15; set:  1; (VT) round-off, flic-flac with 1 turn on, stretched salto backward off
+Glabel:  16; set:  1; (VT) round-off, flic-flac with 1 turn on, piked salto backward off
+Glabel:  17; set:  1; (VT) round-off, flic-flac with 1 turn on, tucked salto backward with 1 turn off
+Glabel:  18; set:  1; (VT) round-off, flic-flac with 1 turn on, tucked salto backward off
+Glabel:  19; set:  1; (VT) round-off, flic-flac on, stretched salto backward with 2 turn off
+Glabel:  20; set:  1; (VT) round-off, flic-flac on, stretched salto backward with 1 turn off
+Glabel:  21; set:  1; (VT) round-off, flic-flac on, stretched salto backward with 1.5 turn off
+Glabel:  22; set:  1; (VT) round-off, flic-flac on, stretched salto backward with 0.5 turn off
+Glabel:  23; set:  1; (VT) round-off, flic-flac on, stretched salto backward with 2.5 turn off
+Glabel:  24; set:  1; (VT) round-off, flic-flac on, stretched salto backward off
+Glabel:  25; set:  1; (VT) round-off, flic-flac on, piked salto backward off
+Glabel:  26; set:  1; (VT) round-off, flic-flac on, tucked salto backward with 1 turn off
+Glabel:  27; set:  1; (VT) round-off, flic-flac on, tucked salto backward with 1.5 turn off
+Glabel:  28; set:  1; (VT) round-off, flic-flac on, tucked salto backward with 0.5 turn off
+Glabel:  29; set:  1; (VT) round-off, flic-flac on, tucked salto backward off
+Glabel:  30; set:  1; (VT) tsukahara stretched with 2 turn
+Glabel:  31; set:  1; (VT) tsukahara stretched with 1 turn
+Glabel:  32; set:  1; (VT) tsukahara stretched with 1.5 turn
+Glabel:  33; set:  1; (VT) tsukahara stretched with 0.5 turn
+Glabel:  34; set:  1; (VT) tsukahara stretched with 2.5 turn
+Glabel:  35; set:  1; (VT) tsukahara stretched salto
+Glabel:  36; set:  1; (VT) tsukahara stretched without salto
+Glabel:  37; set:  1; (VT) tsukahara piked
+Glabel:  38; set:  1; (VT) tsukahara tucked with 1 turn
+Glabel:  39; set:  1; (VT) tsukahara tucked with 1.5 turn
+Glabel:  40; set:  1; (VT) tsukahara tucked with 0.5 turn
+Glabel:  41; set:  1; (VT) tsukahara tucked
+Glabel:  42; set:  1; (VT) handspring forward with 0.5 turn on, 0.5 turn off
+Glabel:  43; set:  1; (VT) handspring forward with 1 turn on, 1 turn off
+Glabel:  44; set:  1; (VT) handspring forward with 1 turn on, handspring forward off
+Glabel:  45; set:  1; (VT) handspring forward on, stretched salto forward with 1.5 turn off
+Glabel:  46; set:  1; (VT) handspring forward on, stretched salto forward with 0.5 turn off
+Glabel:  47; set:  1; (VT) handspring forward on, stretched salto forward with 1 turn off
+Glabel:  48; set:  1; (VT) handspring forward on, stretched salto forward off
+Glabel:  49; set:  1; (VT) handspring forward on, 0.5 turn to piked salto backward off
+Glabel:  50; set:  1; (VT) handspring forward on, piked salto forward with 1.5 turn off
+Glabel:  51; set:  1; (VT) handspring forward on, piked salto forward with 0.5 turn off
+Glabel:  52; set:  1; (VT) handspring forward on, piked salto forward with 1 turn off
+Glabel:  53; set:  1; (VT) handspring forward on, piked salto forward off
+Glabel:  54; set:  1; (VT) handspring forward on, 0.5 turn to tucked salto backward off
+Glabel:  55; set:  1; (VT) handspring forward on, tucked salto forward with 1.5 turn off
+Glabel:  56; set:  1; (VT) handspring forward on, tucked salto forward with 0.5 turn off
+Glabel:  57; set:  1; (VT) handspring forward on, tucked salto forward with 1 turn off
+Glabel:  58; set:  1; (VT) handspring forward on, tucked double salto forward off
+Glabel:  59; set:  1; (VT) handspring forward on, tucked salto forward off
+Glabel:  60; set:  1; (VT) handspring forward on, 1.5 turn off
+Glabel:  61; set:  1; (VT) handspring forward on, 2 turn off
+Glabel:  62; set:  1; (VT) handspring forward on, 1 turn off
+Glabel:  63; set:  1; (VT) handspring forward on, no turn off
+Glabel:  64; set:  1; (VT) yamashita with 0.5 turn off
+Glabel:  65; set:  1; (VT) yamashita with 1 turn off
+Glabel:  66; set:  1; (VT) yamashita-piked to stretched without salto off
+Glabel:  67; set: 21; (FX) switch leap with 0.5 turn
+Glabel:  68; set: 21; (FX) switch leap with 1 turn
+Glabel:  69; set: 21; (FX) fouette hop with leg change to cross split to land on one foot
+Glabel:  70; set: 21; (FX) split leap with 0.5 turn
+Glabel:  71; set: 21; (FX) split leap with 1 turn to land in split sit position
+Glabel:  72; set: 21; (FX) split leap with 1 turn
+Glabel:  73; set: 21; (FX) split leap with 1.5 turn or more
+Glabel:  74; set: 21; (FX) switch leap (leap forward with leg change to cross split)
+Glabel:  75; set: 21; (FX) split leap forward
+Glabel:  76; set: 21; (FX) tuck jump with separation of legs to cross split during flight phase
+Glabel:  77; set: 21; (FX) split jump with 1 turn
+Glabel:  78; set: 21; (FX) split jump with 0.5 turn
+Glabel:  79; set: 21; (FX) split jump with 1.5 turn
+Glabel:  80; set: 21; (FX) sissone jump (leg separation 180 degree on the diagonal to the floor, take off two feet, land on one foot)
+Glabel:  81; set: 21; (FX) split jump (leg separation 180 degree parallel to the floor)
+Glabel:  82; set: 21; (FX) johnson with additional 1 turn
+Glabel:  83; set: 21; (FX) johnson with additional 0.5 turn
+Glabel:  84; set: 21; (FX) leap forward with 0.25 turn into straddle pike position with 1 turn
+Glabel:  85; set: 21; (FX) johnson (switch leap with 0.25 turn to side split or to straddle pike position)
+Glabel:  86; set: 21; (FX) leap forward with 0.25 turn into straddle pike position or side split to land on one or both feet
+Glabel:  87; set: 21; (FX) side split jump with 1 turn landing in front lying support
+Glabel:  88; set: 21; (FX) straddle pike or side split jump with 1 turn
+Glabel:  89; set: 21; (FX) side split jump with 0.5 turn landing in front lying support
+Glabel:  90; set: 21; (FX) straddle pike or side split jump with 0.5 turn
+Glabel:  91; set: 21; (FX) straddle pike or side split jump with 1.5 turn
+Glabel:  92; set: 21; (FX) side split jump landing in front lying support
+Glabel:  93; set: 21; (FX) straddle pike jump or side split jump
+Glabel:  94; set: 21; (FX) stag ring jump 
+Glabel:  95; set: 21; (FX) switch leap to ring position with 1 turn
+Glabel:  96; set: 21; (FX) switch leap to ring position
+Glabel:  97; set: 21; (FX) split leap with 1 turn or more to ring position
+Glabel:  98; set: 21; (FX) split ring leap
+Glabel:  99; set: 21; (FX) ring jump (rear foot at head height, body arched and head dropped backward)
+Glabel: 100; set: 21; (FX) split ring jump with 0.5 turn
+Glabel: 101; set: 21; (FX) split jump with 1 turn or more to ring position
+Glabel: 102; set: 21; (FX) split ring jump
+Glabel: 103; set: 21; (FX) stag jump with 0.5 turn
+Glabel: 104; set: 21; (FX) stag jump      
+Glabel: 105; set: 21; (FX) tuck hop or jump with 2 turn landing in front lying support
+Glabel: 106; set: 21; (FX) tuck hop or jump with 1 turn
+Glabel: 107; set: 21; (FX) tuck hop or jump with 2 turn
+Glabel: 108; set: 21; (FX) stretched hop or jump with 1 turn
+Glabel: 109; set: 21; (FX) stretched hop or jump with 2 turn
+Glabel: 110; set: 21; (FX) pike jump with 1 turn
+Glabel: 111; set: 21; (FX) pike jump      
+Glabel: 112; set: 21; (FX) sheep jump , jump with upper back arch and head release with feet almost touching head
+Glabel: 113; set: 21; (FX) wolf hop or jump with 1 turn landing in front lying support
+Glabel: 114; set: 21; (FX) wolf hop or jump with 1 turn
+Glabel: 115; set: 21; (FX) wolf hop or jump with 2 turn
+Glabel: 116; set: 21; (FX) stride leap forward with change of legs to wolf position
+Glabel: 117; set: 21; (FX) wolf hop or jump ( hop or jump with one leg bent and the other extended straight , forward above horizontal with knees together )
+Glabel: 118; set: 21; (FX) jump with legs separated, landing in front lying support with 0.5 turn
+Glabel: 119; set: 21; (FX) jump with legs separated, landing in front lying support with 1 turn
+Glabel: 120; set: 21; (FX) jump with legs separated, landing in front lying support
+Glabel: 121; set: 21; (FX) hop with 1 turn to straddle and land in front lying support
+Glabel: 122; set: 21; (FX) hop with 1.5 turn in horizontal plane to land in front lying support
+Glabel: 123; set: 21; (FX) cat leap with 1 turn
+Glabel: 124; set: 21; (FX) cat leap with 2 turn
+Glabel: 125; set: 21; (FX) cat leap (leap with alternate leg change)
+Glabel: 126; set: 21; (FX) fouetté-hop to land in arabesque
+Glabel: 127; set: 21; (FX) hop with 0.5 turn free leg extended above horizontal throughout
+Glabel: 128; set: 21; (FX) hop with 1 turn free leg extended above horizontal throughout
+Glabel: 129; set: 21; (FX) butterfly forward, torso parallel to floor, slightly arched, legs straddled and feet above hip height during flight
+Glabel: 130; set: 21; (FX) butterfly backward, torso parallel to floor, slightly arched, legs straddled and feet above hip height during flight
+Glabel: 131; set: 22; (FX) illusion 1 turn through standing split
+Glabel: 132; set: 22; (FX) illusion 2 turn through standing split
+Glabel: 133; set: 22; (FX) 3 turn with free leg held upward in 180 split position throughout turn
+Glabel: 134; set: 22; (FX) 2 turn with free leg held upward in 180 split position throughout turn
+Glabel: 135; set: 22; (FX) 1 turn with free leg held upward in 180 split position throughout turn
+Glabel: 136; set: 22; (FX) 3 turn in tuck stand on one leg, free leg straight throughout turn
+Glabel: 137; set: 22; (FX) 2 turn in tuck stand on one leg, free leg straight throughout turn
+Glabel: 138; set: 22; (FX) 2 turn in tuck stand on one leg, free leg bent
+Glabel: 139; set: 22; (FX) 1 turn in tuck stand on one leg, free leg optional
+Glabel: 140; set: 22; (FX) 2 spin or more on back in kip position, hip and leg are closed
+Glabel: 141; set: 22; (FX) 1 spin or less on back in kip position, hip and leg are closed
+Glabel: 142; set: 22; (FX) 1 turn with leg held backward and upward
+Glabel: 143; set: 22; (FX) 2 turn in back attitude, knee of free leg at horizontal throughout turn
+Glabel: 144; set: 22; (FX) 1 turn in back attitude, knee of free leg at horizontal throughout turn
+Glabel: 145; set: 22; (FX) 4 turn on one leg, free leg optional below horizontal
+Glabel: 146; set: 22; (FX) 3 turn on one leg, free leg optional below horizontal
+Glabel: 147; set: 22; (FX) 2 turn on one leg, free leg optional below horizontal
+Glabel: 148; set: 22; (FX) 1 turn on one leg, free leg optional below horizontal
+Glabel: 149; set: 22; (FX) 2 turn or more with heel of free leg forward at horizontal throughout turn
+Glabel: 150; set: 22; (FX) 1 turn with heel of free leg forward at horizontal throughout turn
+Glabel: 151; set: 23; (FX) take-off forward from one or both legs, salto sideward tucked
+Glabel: 152; set: 23; (FX) take-off forward from one or both legs, salto sideward piked
+Glabel: 153; set: 23; (FX) aerial round-off
+Glabel: 154; set: 23; (FX) aerial cartwheel
+Glabel: 155; set: 24; (FX) arabian double salto tucked with 0.5 twist
+Glabel: 156; set: 24; (FX) arabian double salto tucked
+Glabel: 157; set: 24; (FX) arabian salto tucked
+Glabel: 158; set: 24; (FX) double salto forward tucked with 0.5 twist
+Glabel: 159; set: 24; (FX) double salto forward tucked
+Glabel: 160; set: 24; (FX) salto forward tucked with 1 twist
+Glabel: 161; set: 24; (FX) salto forward tucked with 1.5 twist
+Glabel: 162; set: 24; (FX) salto forward tucked with 0.5 twist
+Glabel: 163; set: 24; (FX) salto forward tucked
+Glabel: 164; set: 24; (FX) arabian double salto piked
+Glabel: 165; set: 24; (FX) arabian salto piked
+Glabel: 166; set: 24; (FX) double salto forward piked
+Glabel: 167; set: 24; (FX) salto forward piked with 0.5 twist
+Glabel: 168; set: 24; (FX) salto forward piked
+Glabel: 169; set: 24; (FX) aerial walkover forward
+Glabel: 170; set: 24; (FX) arabian double salto stretched
+Glabel: 171; set: 24; (FX) salto forward stretched with 2 twist
+Glabel: 172; set: 24; (FX) salto forward stretched with 1 twist
+Glabel: 173; set: 24; (FX) salto forward stretched with 2.5 twist
+Glabel: 174; set: 24; (FX) salto forward stretched with 1.5 twist
+Glabel: 175; set: 24; (FX) salto forward stretched with 0.5 twist
+Glabel: 176; set: 24; (FX) salto forward stretched, feet land successively
+Glabel: 177; set: 24; (FX) salto forward stretched, feet land together
+Glabel: 178; set: 25; (FX) double salto backward stretched with 2 twist
+Glabel: 179; set: 25; (FX) double salto backward stretched with 1 twist
+Glabel: 180; set: 25; (FX) double salto backward stretched with 0.5 twist
+Glabel: 181; set: 25; (FX) double salto backward stretched
+Glabel: 182; set: 25; (FX) salto backward stretched with 3 twist
+Glabel: 183; set: 25; (FX) salto backward stretched with 2 twist
+Glabel: 184; set: 25; (FX) salto backward stretched with 1 twist
+Glabel: 185; set: 25; (FX) salto backward stretched
+Glabel: 186; set: 25; (FX) salto backward stretched with 3.5 twist
+Glabel: 187; set: 25; (FX) salto backward stretched with 2.5 twist
+Glabel: 188; set: 25; (FX) salto backward stretched with 1.5 twist
+Glabel: 189; set: 25; (FX) salto backward stretched with 0.5 twist
+Glabel: 190; set: 25; (FX) double salto backward tucked with 3 twist
+Glabel: 191; set: 25; (FX) double salto backward tucked with 2 twist
+Glabel: 192; set: 25; (FX) double salto backward tucked with 1 twist
+Glabel: 193; set: 25; (FX) double salto backward tucked with 2.5 twist
+Glabel: 194; set: 25; (FX) double salto backward tucked with 1.5 twist
+Glabel: 195; set: 25; (FX) double salto backward tucked
+Glabel: 196; set: 25; (FX) salto backward tucked with 1 twist
+Glabel: 197; set: 25; (FX) salto backward tucked
+Glabel: 198; set: 25; (FX) double salto backward piked with 1 twist
+Glabel: 199; set: 25; (FX) double salto backward piked
+Glabel: 200; set: 25; (FX) salto backward piked
+Glabel: 201; set: 25; (FX) whip salto backward with 1 twist
+Glabel: 202; set: 25; (FX) whip salto backward with 0.5 twist
+Glabel: 203; set: 25; (FX) whip salto backward
+Glabel: 204; set: 31; (BB) side yang-bo (yang-bo in side position)
+Glabel: 205; set: 31; (BB) yang-bo (jump to cross over split with body arched and head dropped backward)
+Glabel: 206; set: 31; (BB) sissone in side position
+Glabel: 207; set: 31; (BB) sissone (leg separation 180 degree on the diagonal to the floor, take off two feet, land on one foot)
+Glabel: 208; set: 31; (BB) split jump with 0.5 turn in side position
+Glabel: 209; set: 31; (BB) split jump with 0.5 turn
+Glabel: 210; set: 31; (BB) split jump with 1 turn in side position
+Glabel: 211; set: 31; (BB) split jump with 1 turn
+Glabel: 212; set: 31; (BB) split jump in side position
+Glabel: 213; set: 31; (BB) split jump     
+Glabel: 214; set: 31; (BB) straddle pike jump with 0.5 turn in side position
+Glabel: 215; set: 31; (BB) straddle pike jump with 0.5 turn
+Glabel: 216; set: 31; (BB) straddle pike jump with 1 turn in side position
+Glabel: 217; set: 31; (BB) straddle pike jump with 1 turn
+Glabel: 218; set: 31; (BB) straddle pike jump or side split jump in side position
+Glabel: 219; set: 31; (BB) straddle pike jump or side split jump
+Glabel: 220; set: 31; (BB) stag-ring jump 
+Glabel: 221; set: 31; (BB) ring jump (rear foot at head height, body arched and head dropped backward, 180 separation of legs)
+Glabel: 222; set: 31; (BB) split ring jump (ring jump with front leg horizontal to the floor)
+Glabel: 223; set: 31; (BB) switch leap with 0.5 turn
+Glabel: 224; set: 31; (BB) switch leap with 1 turn
+Glabel: 225; set: 31; (BB) fouette hop with leg change to cross split
+Glabel: 226; set: 31; (BB) split leap with 0.5 turn
+Glabel: 227; set: 31; (BB) split leap with 1 turn
+Glabel: 228; set: 31; (BB) switch leap (leap forward with leg change)
+Glabel: 229; set: 31; (BB) stag split leap forward
+Glabel: 230; set: 31; (BB) split leap forward
+Glabel: 231; set: 31; (BB) johnson with additional 0.5 turn
+Glabel: 232; set: 31; (BB) johnson (leap forward with leg change and 0.25 turn to side split or straddle pike position)
+Glabel: 233; set: 31; (BB) leap with 0.25 turn into straddle pike position
+Glabel: 234; set: 31; (BB) switch leap to ring position
+Glabel: 235; set: 31; (BB) split ring leap
+Glabel: 236; set: 31; (BB) tuck hop or jump with 1 turn in side position
+Glabel: 237; set: 31; (BB) tuck hop or jump with 1 turn
+Glabel: 238; set: 31; (BB) tuck hop or jump with 1.5 turn in side position
+Glabel: 239; set: 31; (BB) tuck hop or jump with 1.5 turn
+Glabel: 240; set: 31; (BB) tuck hop or jump with 0.5 turn in side position
+Glabel: 241; set: 31; (BB) tuck hop or jump with 0.5 turn
+Glabel: 242; set: 31; (BB) tuck hop or jump with 0.75 turn
+Glabel: 243; set: 31; (BB) pike jump with 0.5 turn in side position
+Glabel: 244; set: 31; (BB) pike jump from cross position with 0.5 turn
+Glabel: 245; set: 31; (BB) pike jump with 1 turn in side position
+Glabel: 246; set: 31; (BB) pike jump from cross position with 1 turn
+Glabel: 247; set: 31; (BB) pike jump in side position
+Glabel: 248; set: 31; (BB) pike jump from cross position
+Glabel: 249; set: 31; (BB) stretched jump/hop with 1 turn
+Glabel: 250; set: 31; (BB) stretched jump/hop with 1.5 turn
+Glabel: 251; set: 31; (BB) sheep jump (jump with upper back arch and head release with feet to head height/closed Ring)
+Glabel: 252; set: 31; (BB) wolf hop or jump with 1 turn
+Glabel: 253; set: 31; (BB) wolf hop or jump with 1.5 turn
+Glabel: 254; set: 31; (BB) wolf hop or jump with 0.5 turn
+Glabel: 255; set: 31; (BB) stride leap forward with change of legs to wolf position
+Glabel: 256; set: 31; (BB) wolf hop or jump (hip angle at 45, knees together)
+Glabel: 257; set: 31; (BB) cat leap with 0.5 turn
+Glabel: 258; set: 31; (BB) cat leap with 1 turn
+Glabel: 259; set: 31; (BB) cat leap (knees above horizontal alternately)
+Glabel: 260; set: 31; (BB) fouetté hop with 0.5 turn to land in arabesque, free leg above horizontal
+Glabel: 261; set: 31; (BB) hop with 0.5 turn, free leg extended above horizontal throughout
+Glabel: 262; set: 32; (BB) 0.5 illusion turn through standing split, 180 legs separation
+Glabel: 263; set: 32; (BB) 1 illusion turn through standing split, 180 legs separation
+Glabel: 264; set: 32; (BB) 1.5 turn with free leg held upward in 180 split position throughout turn
+Glabel: 265; set: 32; (BB) 1 turn with free leg held upward in 180 split position throughout turn
+Glabel: 266; set: 32; (BB) 1.5 turn with heel of free leg forward at horizontal throughout turn
+Glabel: 267; set: 32; (BB) 2 turn with heel of free leg forward at horizontal throughout turn
+Glabel: 268; set: 32; (BB) 1 turn with heel of free leg forward at horizontal throughout turn
+Glabel: 269; set: 32; (BB) 3 turn on one leg, free leg optional below horizontal
+Glabel: 270; set: 32; (BB) 2 turn on one leg, free leg optional below horizontal
+Glabel: 271; set: 32; (BB) 1.5 turn on one leg, free leg optional below horizontal
+Glabel: 272; set: 32; (BB) 1 turn on one leg, free leg optional below horizontal
+Glabel: 273; set: 32; (BB) 1 turn pirouette with free leg held backward with both hands
+Glabel: 274; set: 32; (BB) 1.5 turn on one leg, thigh of free leg at horizontal, backward upward throughout turn
+Glabel: 275; set: 32; (BB) 1 turn on one leg, thigh of free leg at horizontal, backward upward throughout turn
+Glabel: 276; set: 32; (BB) 2.5 turn in tuck stand on one leg, free leg optional
+Glabel: 277; set: 32; (BB) 1.5 turn in tuck stand on one leg, free leg optional
+Glabel: 278; set: 32; (BB) 3 turn in tuck stand on one leg, free leg optional
+Glabel: 279; set: 32; (BB) 2 turn in tuck stand on one leg, free leg optional
+Glabel: 280; set: 32; (BB) 1 turn in tuck stand on one leg, free leg optional
+Glabel: 281; set: 32; (BB) 1.5 turn in knee arabesque
+Glabel: 282; set: 32; (BB) 2 turn in knee arabesque
+Glabel: 283; set: 32; (BB) 1 turn in knee arabesque
+Glabel: 284; set: 32; (BB) 1.5 turn in prone position, alternate support of hands permitted
+Glabel: 285; set: 32; (BB) 1 turn in prone position, alternate support of hands permitted
+Glabel: 286; set: 32; (BB) 1.25 turn on back in kip position, hip-leg angle closed
+Glabel: 287; set: 33; (BB) gainer salto backward tucked
+Glabel: 288; set: 33; (BB) jump forward with 0.5 twist and salto backward tucked
+Glabel: 289; set: 33; (BB) salto backward tucked with 1 twist
+Glabel: 290; set: 33; (BB) salto backward tucked
+Glabel: 291; set: 33; (BB) gainer salto backward piked
+Glabel: 292; set: 33; (BB) jump forward with 0.5 twist and salto backward piked
+Glabel: 293; set: 33; (BB) salto backward piked
+Glabel: 294; set: 33; (BB) gainer salto backward stretched-step out (feet land successively)
+Glabel: 295; set: 33; (BB) salto backward stretched-step out (feet land successively)
+Glabel: 296; set: 33; (BB) salto backward stretched with 1 twist
+Glabel: 297; set: 33; (BB) salto backward stretched with legs together
+Glabel: 298; set: 33; (BB) free aerial cartwheel in side position
+Glabel: 299; set: 33; (BB) salto sideward tucked with 0.5 turn, take off from one leg to side stand
+Glabel: 300; set: 33; (BB) salto sideward tucked, take off from one leg to side stand
+Glabel: 301; set: 33; (BB) free aerial cartwheel landing in side position
+Glabel: 302; set: 33; (BB) free aerial round-off tucked, take off from 2 feet
+Glabel: 303; set: 33; (BB) free aerial round-off piked, take off from 2 feet
+Glabel: 304; set: 33; (BB) free aerial round-off
+Glabel: 305; set: 33; (BB) free aerial cartwheel with leg change
+Glabel: 306; set: 33; (BB) free aerial cartwheel landing in cross position
+Glabel: 307; set: 33; (BB) arabian salto tucked (take-off backward with 0.5 twist, salto forward)
+Glabel: 308; set: 33; (BB) salto forward tucked with 0.5 twist to cross stand
+Glabel: 309; set: 33; (BB) salto forward tucked to cross stand
+Glabel: 310; set: 33; (BB) salto forward piked to cross stand
+Glabel: 311; set: 33; (BB) salto forward tucked (take-off from one leg to stand on one or two feet)
+Glabel: 312; set: 33; (BB) free aerial walkover forward, landing on one or both feet
+Glabel: 313; set: 34; (BB) gainer flic-flac with piking and stretching of hips in flight phase and swing down to cross straddle sit
+Glabel: 314; set: 34; (BB) gainer flic-flac with high flight phase, swing down to cross straddle sit
+Glabel: 315; set: 34; (BB) flic-flac with piking and stretching of hips in flight phase and swing down to cross straddle sit
+Glabel: 316; set: 34; (BB) flic-flac with 1 twist, swing down to cross straddle sit
+Glabel: 317; set: 34; (BB) flic-flac, swing down to cross straddle sit
+Glabel: 318; set: 34; (BB) flic-flac from side position with 1 twist to hip circle backward
+Glabel: 319; set: 34; (BB) flic-flac from side position with hip circle backward
+Glabel: 320; set: 34; (BB) flic-flac from side position to front support
+Glabel: 321; set: 34; (BB) flic-flac from side position with 0.5 twist to side handstand lower to optional end position
+Glabel: 322; set: 34; (BB) flic-flac with step-out from side position
+Glabel: 323; set: 34; (BB) gainer flic-flac with 0.25 twist to handstand, keep 2 seconds, lower to optional end position
+Glabel: 324; set: 34; (BB) gainer flic-flac with minimum 0.75 twist before hand support
+Glabel: 325; set: 34; (BB) gainer flic-flac, also with support on one arm
+Glabel: 326; set: 34; (BB) flic-flac with 0.75 twist to side handstand, keep 2 seconds, lower to optional end position
+Glabel: 327; set: 34; (BB) flic-flac with 0.25 twist to side handstand, keep 2 seconds, lower to optional end position
+Glabel: 328; set: 34; (BB) flic-flac with 0.5 twist to handstand, keep 2 seconds, lower to optional end position
+Glabel: 329; set: 34; (BB) flic-flac with minimum 0.75 twist before hand support
+Glabel: 330; set: 34; (BB) jump backward, flic-flac take-off with 0.5 twist through handstand to tic-toc
+Glabel: 331; set: 34; (BB) jump backward, flic-flac take-off with 0.5 twist through handstand to walkover forward, also with support on one arm
+Glabel: 332; set: 34; (BB) jump backward, flic-flac take-off with 0.5 twist to handspring forward, land on 2 feet
+Glabel: 333; set: 34; (BB) flic-flac with 0.5 twist after hand support
+Glabel: 334; set: 34; (BB) flic-flac to land on both feet
+Glabel: 335; set: 34; (BB) flic-flac with step-out, also with support on one arm
+Glabel: 336; set: 34; (BB) round-off      
+Glabel: 337; set: 34; (BB) handspring forward with leg change in flight phase
+Glabel: 338; set: 34; (BB) handspring forward with flight to land on one or both legs, also with support on one arm
+Glabel: 339; set: 35; (BB) arabian double salto forward tucked
+Glabel: 340; set: 35; (BB) double salto forward tucked
+Glabel: 341; set: 35; (BB) arabian salto tucked (jump backward with 0.5 twist, salto forward tucked)
+Glabel: 342; set: 35; (BB) stretched jump forward with 1 twist and salto forward tucked
+Glabel: 343; set: 35; (BB) salto forward tucked with 1 twist
+Glabel: 344; set: 35; (BB) salto forward tucked with 0.5 twist
+Glabel: 345; set: 35; (BB) salto forward tucked
+Glabel: 346; set: 35; (BB) arabian salto piked (jump backward with 0.5 twist , salto forward piked)
+Glabel: 347; set: 35; (BB) stretched jump forward with 1 twist and salto forward piked
+Glabel: 348; set: 35; (BB) salto forward piked with 0.5 twist
+Glabel: 349; set: 35; (BB) salto forward piked
+Glabel: 350; set: 35; (BB) salto forward stretched with 1.5 twist
+Glabel: 351; set: 35; (BB) salto forward stretched with 0.5 twist
+Glabel: 352; set: 35; (BB) salto forward stretched with 2 twist
+Glabel: 353; set: 35; (BB) salto forward stretched with 1 twist
+Glabel: 354; set: 35; (BB) stretched jump forward with 1 twist and salto forward stretched
+Glabel: 355; set: 35; (BB) salto forward stretched
+Glabel: 356; set: 35; (BB) double salto backward tucked with 1 twist
+Glabel: 357; set: 35; (BB) double salto backward tucked
+Glabel: 358; set: 35; (BB) salto backward tucked with 1 twist
+Glabel: 359; set: 35; (BB) salto backward tucked
+Glabel: 360; set: 35; (BB) salto backward tucked with 1.5 twist
+Glabel: 361; set: 35; (BB) salto backward tucked with 0.5 twist
+Glabel: 362; set: 35; (BB) double salto backward piked with 1 twist
+Glabel: 363; set: 35; (BB) double salto backward piked
+Glabel: 364; set: 35; (BB) salto backward piked
+Glabel: 365; set: 35; (BB) salto backward piked with 0.5 twist
+Glabel: 366; set: 35; (BB) salto backward stretched with 3 twist
+Glabel: 367; set: 35; (BB) salto backward stretched with 2 twist
+Glabel: 368; set: 35; (BB) salto backward stretched with 1 twist
+Glabel: 369; set: 35; (BB) salto backward stretched
+Glabel: 370; set: 35; (BB) salto backward stretched with 2.5 twist
+Glabel: 371; set: 35; (BB) salto backward stretched with 1.5 twist
+Glabel: 372; set: 35; (BB) salto backward stretched with 0.5 twist
+Glabel: 373; set: 35; (BB) gainer salto backward tucked with 1 twist to side of beam
+Glabel: 374; set: 35; (BB) gainer salto backward tucked with 2 twist to side of beam
+Glabel: 375; set: 35; (BB) gainer salto backward tucked to side of beam
+Glabel: 376; set: 35; (BB) gainer salto backward tucked with 0.5 twist to side of beam
+Glabel: 377; set: 35; (BB) gainer salto backward tucked with 1.5 twist to side of beam
+Glabel: 378; set: 35; (BB) gainer salto piked to side of beam
+Glabel: 379; set: 35; (BB) gainer salto piked with 0.5 twist to side of beam
+Glabel: 380; set: 35; (BB) gainer salto backward stretched with 3 twist to side of beam
+Glabel: 381; set: 35; (BB) gainer salto backward stretched with 2 twist to side of beam
+Glabel: 382; set: 35; (BB) gainer salto backward stretched with 1 twist to side of beam
+Glabel: 383; set: 35; (BB) gainer salto stretched to side of beam
+Glabel: 384; set: 35; (BB) gainer salto backward stretched with 2.5 twist to side of beam
+Glabel: 385; set: 35; (BB) gainer salto backward stretched with 1.5 twist to side of beam
+Glabel: 386; set: 35; (BB) gainer salto stretched with 0.5 twist to side of beam
+Glabel: 387; set: 35; (BB) gainer salto tucked with 1 twist at end of beam
+Glabel: 388; set: 35; (BB) gainer salto tucked at end of beam
+Glabel: 389; set: 35; (BB) gainer salto piked at end of beam
+Glabel: 390; set: 35; (BB) gainer salto stretched with 1 twist at end of beam
+Glabel: 391; set: 35; (BB) gainer salto stretched with legs together at end of the beam
+Glabel: 392; set: 35; (BB) aerial cartwheel into salto backward tucked
+Glabel: 393; set: 35; (BB) aerial walkover forward with 1.5 twist
+Glabel: 394; set: 35; (BB) aerial walkover forward with 0.5 twist
+Glabel: 395; set: 35; (BB) aerial walkover forward with 1 twist
+Glabel: 396; set: 35; (BB) aerial walkover forward
+Glabel: 397; set: 41; (UB) pike sole circle backward with 1.5 turn to handstand
+Glabel: 398; set: 41; (UB) pike sole circle backward with 1 turn to handstand
+Glabel: 399; set: 41; (UB) pike sole circle backward with 0.5 turn to handstand
+Glabel: 400; set: 41; (UB) pike sole circle backward to handstand
+Glabel: 401; set: 41; (UB) pike sole circle backward, end with toes-on-bar
+Glabel: 402; set: 41; (UB) pike sole circle forward with 1 turn to handstand
+Glabel: 403; set: 41; (UB) pike sole circle forward with 0.5 turn to handstand
+Glabel: 404; set: 41; (UB) pike sole circle forward to handstand
+Glabel: 405; set: 41; (UB) pike sole circle forward, end with toes-on-bar
+Glabel: 406; set: 41; (UB) straddle sole circle backward, end with toes-on-bar
+Glabel: 407; set: 41; (UB) straddle sole circle forward, end with toes-on-bar
+Glabel: 408; set: 41; (UB) giant circle backward with 2 turn to handstand
+Glabel: 409; set: 41; (UB) giant circle backward with 1.5 turn to handstand
+Glabel: 410; set: 41; (UB) giant circle backward with hop 1 turn to handstand
+Glabel: 411; set: 41; (UB) giant circle backward with 1 turn to handstand
+Glabel: 412; set: 41; (UB) giant circle backward on one arm with 0.5 turn to handstand
+Glabel: 413; set: 41; (UB) giant circle backward with 0.5 turn to handstand
+Glabel: 414; set: 41; (UB) clear rear pike support with legs together, full circle swing backward to finish in clear rear support
+Glabel: 415; set: 41; (UB) giant circle backward on one arm
+Glabel: 416; set: 41; (UB) giant circle backward
+Glabel: 417; set: 41; (UB) giant circle forward with 1 turn on one arm before handstand phase
+Glabel: 418; set: 41; (UB) giant circle forward with 1 turn to handstand
+Glabel: 419; set: 41; (UB) giant circle forward with 1.5 turn to handstand
+Glabel: 420; set: 41; (UB) giant circle forward with 0.5 turn to handstand
+Glabel: 421; set: 41; (UB) giant circle forward
+Glabel: 422; set: 41; (UB) clear hip circle backward with 1.5 turn to handstand
+Glabel: 423; set: 41; (UB) clear hip circle backward with 1 turn to handstand
+Glabel: 424; set: 41; (UB) clear hip circle backward with 0.5 turn to handstand
+Glabel: 425; set: 41; (UB) clear hip circle backward to handstand
+Glabel: 426; set: 41; (UB) clear hip circle forward with 0.5 turn to handstand
+Glabel: 427; set: 41; (UB) clear hip circle forward to handstand
+Glabel: 428; set: 41; (UB) hip circle backward, hips touching bar
+Glabel: 429; set: 41; (UB) hip circle forward, hips touching bar
+Glabel: 430; set: 41; (UB) clear pike circle backward with 1.5 turn to handstand
+Glabel: 431; set: 41; (UB) clear pike circle backward with 1 turn to handstand
+Glabel: 432; set: 41; (UB) clear pike circle backward with 0.5 turn to handstand
+Glabel: 433; set: 41; (UB) clear pike circle backward to handstand
+Glabel: 434; set: 41; (UB) from handstand clear pike circle backward to rear inverted pike support
+Glabel: 435; set: 41; (UB) from rear support, seat/pike circle backward to rear support
+Glabel: 436; set: 41; (UB) clear pike circle forward with 1 turn to handstand
+Glabel: 437; set: 41; (UB) clear pike circle forward with 0.5 turn to handstand
+Glabel: 438; set: 41; (UB) clear pike circle forward to handstand
+Glabel: 439; set: 41; (UB) from rear support, seat/pike circle forward to rear support
+Glabel: 440; set: 41; (UB) stalder backward with 1.5 turn to handstand
+Glabel: 441; set: 41; (UB) stalder backward with 1 turn to handstand
+Glabel: 442; set: 41; (UB) stalder backward with 0.5 turn to handstand
+Glabel: 443; set: 41; (UB) stalder backward to handstand
+Glabel: 444; set: 41; (UB) clear straddle circle backward to clear support
+Glabel: 445; set: 41; (UB) stalder forward with 1 turn to handstand
+Glabel: 446; set: 41; (UB) stalder forward with 0.5 turn to handstand
+Glabel: 447; set: 41; (UB) stalder forward to handstand
+Glabel: 448; set: 41; (UB) clear straddle circle forward to clear support
+Glabel: 449; set: 42; (UB) stoop, straddle vault and 0.5 turn over high bar to hang
+Glabel: 450; set: 42; (UB) (swing backward) with 0.5 turn and straddle flight backward over high bar to catch high bar
+Glabel: 451; set: 42; (UB) 0.5 turn to counter straddle in flight over high bar to hang
+Glabel: 452; set: 42; (UB) counter straddle over high bar with 0.5 turn to hang
+Glabel: 453; set: 42; (UB) counter straddle over high bar to hang
+Glabel: 454; set: 42; (UB) stoop, pike vault and 0.5 turn over high bar to hang
+Glabel: 455; set: 42; (UB) (swing forward with 0.5 turn) pike vault over high bar to hang
+Glabel: 456; set: 42; (UB) counter piked over high bar to hang
+Glabel: 457; set: 42; (UB) (swing backward) salto forward tucked over high bar to hang on high bar
+Glabel: 458; set: 42; (UB) (pike sole circle backward) counter stretched (reverse hecht) in layout position over HB to hang
+Glabel: 459; set: 42; (UB) (swing forward or under-swing with support of feet) counter salto forward straddled to catch on high bar
+Glabel: 460; set: 42; (UB) (swing forward) 0.5 turn and salto forward straddled
+Glabel: 461; set: 42; (UB) (swing backward) salto forward straddled with 0.5 turn to hang on high bar
+Glabel: 462; set: 42; (UB) (swing backward or front support) salto forward straddled to hang on high bar
+Glabel: 463; set: 42; (UB) (swing backward) 1 turn to hang on high bar
+Glabel: 464; set: 42; (UB) (under-swing on high bar or low bar) 1.5 turn to hang
+Glabel: 465; set: 42; (UB) (swing backward) salto forward piked to hang on high bar
+Glabel: 466; set: 42; (UB) (swing forward or hip circle backward) salto backward with 0.5 turn piked to hang on high bar
+Glabel: 467; set: 42; (UB) (swing backward) salto forward tucked to hang on high bar
+Glabel: 468; set: 42; (UB) (swing backward) salto forward stretched to hang on high bar
+Glabel: 469; set: 42; (UB) (swing forward) salto backward stretched with 1.5 turn to hang on high bar
+Glabel: 470; set: 42; (UB) (swing forward) salto backward stretched with 0.5 turn to hang on high bar
+Glabel: 471; set: 43; (UB) transition flight from high bar to low bar
+Glabel: 472; set: 43; (UB) transition flight from low bar to high bar
+Glabel: 473; set: 44; (UB) (hip circle backward on low bar or high bar, also clear) hecht with 0.5 turn to salto forward
+Glabel: 474; set: 44; (UB) (hip circle backward on low bar or high bar, also clear) hecht with 1 turn to salto backward
+Glabel: 475; set: 44; (UB) (hip circle backward on low bar or high bar, also clear) hecht with salto backward tucked
+Glabel: 476; set: 44; (UB) (hip circle backward on low bar or high bar, also clear) hecht with 1 turn
+Glabel: 477; set: 44; (UB) (hip circle backward on low bar or high bar, also clear) hecht
+Glabel: 478; set: 44; (UB) (swing forward) double salto backward tucked with 1.5 turn
+Glabel: 479; set: 44; (UB) (swing forward) salto with 0.5 turn into salto forward tucked
+Glabel: 480; set: 44; (UB) (swing forward) double salto backward tucked with 2 turn
+Glabel: 481; set: 44; (UB) (swing forward) double salto backward tucked with 1 turn
+Glabel: 482; set: 44; (UB) (swing forward) triple salto backward tucked
+Glabel: 483; set: 44; (UB) (swing forward) double salto backward tucked
+Glabel: 484; set: 44; (UB) (swing backward) double salto forward tucked
+Glabel: 485; set: 44; (UB) (swing backward) salto forward with 0.5 turn into salto backward tucked
+Glabel: 486; set: 44; (UB) (swing backward) double salto forward tucked with 0.5 turn
+Glabel: 487; set: 44; (UB) (under-swing or clear under-swing) 0.5 turn to salto backward tucked with 1 twist
+Glabel: 488; set: 44; (UB) (under-swing or clear under-swing) salto forward tucked with 1.5 turn
+Glabel: 489; set: 44; (UB) (under-swing or clear under-swing) 0.5 turn to salto backward tucked
+Glabel: 490; set: 44; (UB) (under-swing or clear under-swing) salto forward tucked with 0.5 turn
+Glabel: 491; set: 44; (UB) (under-swing or clear under-swing) salto forward tucked with 1 turn
+Glabel: 492; set: 44; (UB) (under-swing or clear under-swing) salto forward tucked
+Glabel: 493; set: 44; (UB) (swing forward) salto backward tucked with 0.5 turn
+Glabel: 494; set: 44; (UB) (swing forward) salto backward tucked with 1 turn
+Glabel: 495; set: 44; (UB) (swing forward or from high bar) salto backward tucked
+Glabel: 496; set: 44; (UB) (swing backward) salto forward tucked with 1 turn
+Glabel: 497; set: 44; (UB) (swing backward) salto forward tucked with 0.5 turn
+Glabel: 498; set: 44; (UB) (swing backward) salto forward tucked
+Glabel: 499; set: 44; (UB) (under-swing or clear under-swing) 0.5 turn to salto backward piked
+Glabel: 500; set: 44; (UB) (under-swing or clear under-swing) salto forward piked with 0.5 turn
+Glabel: 501; set: 44; (UB) (under-swing or clear under-swing) salto forward piked with 1 turn
+Glabel: 502; set: 44; (UB) (under-swing or clear under-swing) salto forward piked
+Glabel: 503; set: 44; (UB) (swing forward) 0.5 turn to double salto forward piked
+Glabel: 504; set: 44; (UB) (swing forward) double salto backward piked with 1 turn in first or second salto
+Glabel: 505; set: 44; (UB) (swing forward) double salto backward piked
+Glabel: 506; set: 44; (UB) (swing forward) salto backward piked
+Glabel: 507; set: 44; (UB) (from high bar) salto backward piked
+Glabel: 508; set: 44; (UB) (swing backward or from high bar) salto forward piked
+Glabel: 509; set: 44; (UB) (swing backward) double salto forward piked with 0.5 turn
+Glabel: 510; set: 44; (UB) (swing forward) salto backward stretched with 0.5 turn into salto forward stretched
+Glabel: 511; set: 44; (UB) (swing forward) salto backward stretched with 2.5 turn
+Glabel: 512; set: 44; (UB) (swing forward) salto backward stretched with 1.5 turn
+Glabel: 513; set: 44; (UB) (swing forward) salto backward stretched with 0.5 turn
+Glabel: 514; set: 44; (UB) (swing forward) double salto backward stretched with 2 turn
+Glabel: 515; set: 44; (UB) (swing forward) double salto backward stretched with 1 turn
+Glabel: 516; set: 44; (UB) (swing forward) double salto backward stretched
+Glabel: 517; set: 44; (UB) (swing forward) salto backward stretched with 3 turn
+Glabel: 518; set: 44; (UB) (swing forward) salto backward stretched with 2 turn
+Glabel: 519; set: 44; (UB) (swing forward) salto backward stretched with 1 turn
+Glabel: 520; set: 44; (UB) (swing forward) salto backward stretched
+Glabel: 521; set: 44; (UB) (swing backward) salto forward stretched with 2 turn
+Glabel: 522; set: 44; (UB) (swing backward) salto forward stretched with 1 turn
+Glabel: 523; set: 44; (UB) (swing backward) salto forward stretched
+Glabel: 524; set: 44; (UB) (from high bar) 0.5 turn to salto backward stretched
+Glabel: 525; set: 44; (UB) (from high bar) salto forward stretched with 0.5 turn
+Glabel: 526; set: 44; (UB) (swing backward) salto forward stretched with 1.5 turn
+Glabel: 527; set: 44; (UB) (swing backward) salto forward stretched with 0.5 turn
+Glabel: 528; set: 44; (UB) 0.5 turn to stand
+Glabel: 529; set: 44; (UB) 1 turn to stand

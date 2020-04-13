@@ -122,8 +122,16 @@
 
 	pre {
     text-align: left;
-    white-space: pre-line;
+    white-space: pre;
+	background-color: ghostwhite;
+	border: 1px solid #CCCCCC;
+	padding: 10px 20px;
+	margin: 10px;
+    tab-size:         4; /* Chrome 21+, Safari 6.1+, Opera 15+ */
+    -moz-tab-size:    4; /* Firefox 4+ */
+    -o-tab-size:      4; /* Opera 11.5 & 12.1 only */
   	}
+
 </style>
 
 <html>
@@ -440,25 +448,165 @@
 			<tr>
 				<td width=300px>
 					<center>
-						<span style="font-size:24px">v1.0</span><br>
+						<span style="font-size:24px">Categories</span><br>
 						<br>
 						<img class="rounded" onmouseover="this.src='./resources/images/dataset_icon.jpg';" onmouseout="this.src='./resources/images/dataset_icon.jpg';" src = "./resources/images/dataset_icon.jpg" height = "150px"><br><br>
-						<span style="font-size:24px"><a href=''>annotations (json)</a></span><br>
-						<span style="font-size:24px"><a href=''>train-test split</a></span><br>
+						<span style="font-size:16px"><a href='resources/dataset/finegym_glabel_to_Qtree.json'>question annotation (json)</a></span><br>
+						<span style="font-size:16px"><a href='resources/dataset/gym99_categories.txt'>Gym99 category list (txt)</a></span><br>
+						<span style="font-size:16px"><a href='resources/dataset/gym288_categories.txt'>Gym288 category list (txt)</a></span><br>
+						<span style="font-size:16px"><a href='resources/dataset/gym530_categories.txt'>Gym530 category list (txt)</a></span><br>
+						<br>
 					<span style="font-size:16px"></span>
 					</center>
 				</td>
 				<td width=300px>
 					<center>
-						<span style="font-size:24px">v1.0</span><br><br>
+						<span style="font-size:24px">v1.0</span><br>
+						<br>
 						<img class="rounded" onmouseover="this.src='./resources/images/dataset_icon.jpg';" onmouseout="this.src='./resources/images/dataset_icon.jpg';" src = "./resources/images/dataset_icon.jpg" height = "150px"><br><br>
-						<span style="font-size:24px"><a href=''>annotations (json)</a></span><br>
-						<span style="font-size:24px"><a href=''>train-test split</a></span><br>
+						<span style="font-size:16px"><a href='resources/dataset/finegym_annotation_info_v1.0.json'>temporal annotation (json)</a></span><br>
+						<span style="font-size:16px"><a href='resources/dataset/gym99_train_element_v1.0.txt'>Gym99 train split</a></span><br>
+						<span style="font-size:16px"><a href='resources/dataset/gym99_val_element.txt'>Gym99 val split</a></span><br>
+						<span style="font-size:16px"><a href='resources/dataset/gym288_train_element_v1.0.txt'>Gym288 train split</a></span><br>
+						<span style="font-size:16px"><a href='resources/dataset/gym288_val_element.txt'>Gym288 val split</a></span><br>
 					<span style="font-size:16px"></span>
 					</center>
 				</td>
+				<td width=300px>
+					<center>
+						<span style="font-size:24px">v1.1</span><br><br>
+						<img class="rounded" onmouseover="this.src='./resources/images/dataset_icon.jpg';" onmouseout="this.src='./resources/images/dataset_icon.jpg';" src = "./resources/images/dataset_icon.jpg" height = "150px"><br><br>
+						<span style="font-size:16px"><a href='resources/dataset/finegym_annotation_info_v1.1.json'>temporal annotation (json)</a></span><br>
+						<span style="font-size:16px"><a href='resources/dataset/gym99_train_element_v1.1.txt'>Gym99 train split</a></span><br>
+						<span style="font-size:16px"><a href='resources/dataset/gym99_val_element.txt'>Gym99 val split (same as v1.0)</a></span><br>
+						<span style="font-size:16px"><a href='resources/dataset/gym288_train_element_v1.1.txt'>Gym288 train split</a></span><br>
+						<span style="font-size:16px"><a href='resources/dataset/gym288_val_element.txt'>Gym288 val split (same as v1.0)</a></span><br>
+					<span style="font-size:16px"></span>
+					</center>
+				</td>
+				<table>
+				<center><h2> How to read the temporal annotation files (JSON)? </h2></center>
+				Below, we show an example entry from the above JSON annotation file:
+				<pre style='font-family: Courier; font-size:14px'>
+"0LtLS9wROrk": {
+	"E_002407_002435": {
+		"event": 4,
+		"segments": {
+			"A_0003_0005": {
+				"stages": 1,
+				"timestamps": [
+					[
+						3.45,
+						5.64
+					]
+				]
+			},
+			"A_0006_0008": { ... },
+			"A_0023_0028": { ... },
+			...
+		},
+		"timestamps": [
+			[
+				2407.32,
+				2435.28
+			]
+		]
+	},
+	"E_002681_002688": {
+		"event": 1,
+		"segments": {
+			"A_0000_0003": {
+				"stages": 3,
+				"timestamps": [
+					[
+						0.04,
+						3.2
+					],
+					[
+						3.2,
+						4.49
+					],
+					[
+						4.49,
+						6.57
+					]
+				]
+			}
+		},
+		"timestamps": [
+			[
+				2681.88,
+				2688.48
+			]
+		]
+	},
+	"E_002710_002737": { ... },
+	...
+}
+				</pre>
+				</table>
+				The example shows the annotations related to this video.
+				First of all, we assign the unique identifier <a style='font-family: Courier'>"0LtLS9wROrk"</a> to that video,
+				which corresponds to the 11-digit YouTube identifier. <br>
+				It contains all action (event-level) instances, whose names follow the format of <a style='font-family: Courier'>"E_{XXXXXX}_{YYYYYY}"</a>.
+				Here, "E" indicates "Event", and "XXXXXX"/"YYYYYY" indicates the zero-padded starting and ending timestamp (in seconds and truncated to Int).
+				<br>
+				Each action instance includes (1) the exact timestamps in the original video ('timestamps', in seconds),
+				(2) event label ('event'), and
+				(3) a list of annotated subaction (element-level) instances ('segments').
+				<br>
+				The annotated subaction instances follow the format of <a style='font-family: Courier'>"A_{ZZZZ}_{WWWW}"</a>.
+				Here, "A" indicates "subAction", and "ZZZZ"/"WWWW" indicates the zero-padded starting and ending timestamp (in seconds and truncated to Int).
+				<br>
+				Ech subaction instance includes (1) the number of stages of this subaction instance ('stages', 3 for Vault and 1 for other events)
+				(2) the exact timestamps of each stage <i>relative</i> to the starting time of event. ('timestamps', in seconds)
+				As a result, each subaction instance has a unique identifier <a style='font-family: Courier'>"{VIDEO_ID}_E_{XXXXXX}_{YYYYYY}_A_{ZZZZ}_{WWWW}"</a>.
+				This identifier serves as the instance name in the train/val splits of Gym99 and Gym288.
 			</tr>
 		   </table>
+
+		   <table>
+			<center><h2> How to read the question annotation files (JSON)? </h2></center>
+			Below, we show an example entry from the above JSON annotation file:
+			<pre style='font-family: Courier; font-size:14px'>
+"0": {
+	"BTcode": "1111111",
+	"questions": [
+		"round-off onto the springboard?",
+		"turning entry after round-off (turning in first flight phase)?",
+		"Facing the coming direction when handstand on vault
+		(0.5 turn in first flight phase)?",
+		"Body keep stretched  during salto (stretched salto)?",
+		"Salto with turn?",
+		"Facing vault table after landing?",
+		"Salto with 1.5 turn?"
+	],
+	"code": "6.00"
+},
+"1": {
+	"BTcode": "1111110",
+	"questions": [
+		"round-off onto the springboard?",
+		"turning entry after round-off (turning in first flight phase)?",
+		"Facing the coming direction when handstand on vault
+		(0.5 turn in first flight phase)?",
+		"Body keep stretched  during salto (stretched salto)?",
+		"Salto with turn?",
+		"Facing vault table after landing?",
+		"Salto with 1.5 turn?"
+	],
+	"code": "5.20"
+},
+...
+			</pre>
+			</table>
+			The example shows the questions related to each class.
+			The identifier corresponds to the label name provided in <a href='resources/dataset/gym530_categories_wset.txt'>Gym530 category list</a>.
+			Each class includes (1) a list of questions that are asked ('quetions'),
+			(2) a string of binary codes ('BTcode') where 1 refers to 'yes' and 0 refers to 'no',
+			(3) and original code in the <a href='http://www.fig-gymnastics.com/publicdir/rules/files/en_WAG%20CoP%202017-2020.pdf'>official codebook</a>.
+		</tr>
+	   </table>		   
 		 
 		 <br><br>
 		 <hr>
@@ -487,31 +635,18 @@
 		  <div class="disclaimerbox">
 			<!-- <center><h2>How to interpret the results</h2></center> -->
 
-		   <span style="color:#646464">
+		   <span>
 				<!-- <center><span style="font-size:28px"><b>Cite</b></span></center> -->
-				<pre style = "font-family:Courier">
-					@inproceedings{shao2020finegym,
-					title={FineGym: A Hierarchical Video Dataset for Fine-grained Action Understanding},
-					author={Shao, Dian and Zhao, Yue and Dai, Bo and Lin, Dahua},
-					booktitle={IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
-					year={2020}
-				    }
+				<pre style = "font-family:Courier; font-size:14px">
+@inproceedings{shao2020finegym,
+title={FineGym: A Hierarchical Video Dataset for Fine-grained Action Understanding},
+author={Shao, Dian and Zhao, Yue and Dai, Bo and Lin, Dahua},
+booktitle={IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+year={2020}
+}
 				</pre>
 		  </div>
   		  </table>
-
-		  <table align=center width=700px>
-
-  		  </table>
-
-		  <hr>
-
-
-  		<br><br>  
-  	  	<hr>
-
-
-
 
 
 		  	
@@ -532,6 +667,7 @@
 		<br><br>
 
 <script>
+	
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
