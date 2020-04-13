@@ -14,7 +14,13 @@
 	h1 {
 		font-weight:300;
 	}
-	
+		
+	h2 {
+		font-weight:300;
+		font-size: 22px;
+		text-align: left;
+	}
+
 	.disclaimerbox {
 		background-color: #eee;		
 		border: 1px solid #eeeeee;
@@ -135,7 +141,7 @@
 	  			  <tr>
 	  	              <td align=center width=100px>
 	  					<center>
-	  						<span style="font-size:24px"><a href="https://scholar.google.com/citations?user=amxDSLoAAAAJ&hl=en">Dian Shao</a></span>
+	  						<span style="font-size:24px"><a href="https://sdolivia.github.io/">Dian Shao</a></span>
 		  		  		</center>
 		  		  	  </td>
 	  	              <td align=center width=100px>
@@ -185,7 +191,7 @@
 							We provide coarse-to-fine annotations both temporally and semantically.
 							There are three levels of categorical labels.
 							The temporal dimension (represented by the two bars) is also divided into two levels, i.e., actions and sub-actions.
-							Sub-actions could be described generally using set categories or precisely using elementcategories.
+							Sub-actions could be described generally using set categories or precisely using element categories.
 							Ground-truth element categories of sub-action instances are obtained via manually constructed decision-trees.</i>
 					</center>
   	              </td>
@@ -198,17 +204,45 @@
   		  <table align=center width=720px>
 				<center><h1>Abstract</h1></center>
 		  </table>
-		  On public benchmarks, current action recognition techniques have achieved great success.
-		  However, when used in real-world applications, e.g. sport analysis, which requires the capability of parsing an activity into phases and differentiating between subtly different actions, their performances remain far from being satisfactory.
-		  To take action recognition to a new level, we develop FineGym, a new dataset built on top of gymnasium videos.
-		  Compared to existing action recognition datasets, FineGym is distinguished in richness, quality, and diversity.
-		  In particular, it provides temporal annotations at both action and sub-action levels with a three-level semantic hierarchy.
-		  For example, a <i>"balance beam"</i> event will be annotated as a sequence of elementary sub-actions derived from five sets:
-		  <i>"leap-jumphop"</i>, <i>"beam-turns"</i>, <i>"flight-salto"</i>, <i>"flight-handspring"</i>, and <i>"dismount"</i>, 
-		  where the sub-action in each set will be further annotated with finely defined class labels.
-		  This new level of granularity presents significant challenges for action recognition, e.g. how to parse the temporal structures from a coherent action, and how to distinguish between subtly different action classes.
-		  We systematically investigate representative methods on this dataset and obtain a number of interesting findings. We hope this dataset could advance research towards action understanding.
+		  <center>
+			<span>
+		 	On public benchmarks, current action recognition techniques have achieved great success.
+		  	However, when used in real-world applications, e.g. sport analysis, which requires the capability of parsing an activity into phases and differentiating between subtly different actions, their performances remain far from being satisfactory.
+		  	To take action recognition to a new level, we develop <i>FineGym</i>, a new dataset built on top of gymnasium videos.
+		  	Compared to existing action recognition datasets, FineGym is distinguished in richness, quality, and diversity.
+		  	In particular, it provides temporal annotations at both action and sub-action levels with a three-level semantic hierarchy.
+		  	For example, a <i>"balance beam"</i> event will be annotated as a sequence of elementary sub-actions derived from five sets:
+		  	<i>"leap-jumphop"</i>, <i>"beam-turns"</i>, <i>"flight-salto"</i>, <i>"flight-handspring"</i>, and <i>"dismount"</i>, 
+		  	where the sub-action in each set will be further annotated with finely defined class labels.
+		  	This new level of granularity presents significant challenges for action recognition, e.g. how to parse the temporal structures from a coherent action, and how to distinguish between subtly different action classes.
+		  	We systematically investigate representative methods on this dataset and obtain a number of interesting findings. We hope this dataset could advance research towards action understanding.
+		  	</span>
+		  </center>
   		  <br><br>
+		  <hr>
+
+		  <table align=center width=720px>
+			<center><h1>Demo video</h1></center>
+			<tr>
+				<table align=center width=720px>
+					<tr>
+						<td align=center width=720px>
+							<iframe width="600" height="320" src="https://www.youtube.com/embed/notLDzBJ2mg" frameborder="0" allowfullscreen></iframe>
+						</td>
+					  </tr>
+					<tr>
+						<td align=center width=720px>
+						  <span style="font-size:14px"><i>
+							An illustrative video of FineGym's hiecharcial annotations given a complete competition.
+							Action and subaction boundaries are highlighted while irrelevant fragments are fast-forwarded.
+							We also present the tree-based process at the end of the demo video.</i>
+						</span>
+						   </td>
+					  </tr>
+					 </table>
+			  </tr>
+		  </table>
+		   <br><br>
 		  <hr>
 
 		  <table align=center width=720px>
@@ -235,13 +269,13 @@
 		  <hr>
 
 		  <table align=center width=720px>
-			<center><h1>Examples</h1></center>
+			<center><h1>Sub-action examples</h1></center>
 			<tr>
 				<center>
-				<span style="font-size:14px">
+				<span>
 					We present several examples of fine-grained sub-action instances.
 					Each group belongs to three element categories within a same event (BB, FX, UB, and VT).
-					It can be seen such fine-grained instances contain subtle and challenging differences.<br>
+					It can be seen such fine-grained instances contain subtle and challenging differences.
 					(hover on the GIF for a 0.25x slowdown)</span>
 				<br>
 				</center>
@@ -284,6 +318,99 @@
 
 		  <br><br>
 		  <hr>
+
+		  <table align=center width=720px>
+			<center><h1>Empirical Studies and Analysis</h1></center>
+			<table>
+			<center><h2> (1) Element-level action recognition raises great challenges for existing methods. </h2></center>
+			<tr>
+				  <td width=400px>
+				  <center>
+					  <a href="./resources/images/element_recognition.png"><img class="rounded" src = "./resources/images/element_recognition.png" width="720px"></img></href></a><br>
+				</center>
+				</td>
+			</tr>
+			<tr>
+				<td align=center width=720px>
+				  <span style="font-size:14px"><i>
+					Element-level action recognition results of representative methods.</i>
+				</span>
+				</td>
+			</tr>
+			</table>
+
+			<br>
+
+			<table>
+			<center><h2> (2) Sparse sampling is insufficient for fine-grained action recognition. </h2></center>
+			<tr>
+				  <td width=400px>
+				  <center>
+					  <a href="./resources/images/tsn_vs_nframe.png"><img class="rounded" src = "./resources/images/tsn_vs_nframe.png" width="320px"></img></href></a><br>
+				</center>
+				</td>
+			</tr>
+			<tr>
+				<td align=center width=720px>
+				  <span style="font-size:14px"><i>
+					Performances of TSN when varying the number of sampled frames during training.</i>
+				</span>
+				</td>
+			</tr>
+			</table>
+
+			<br>
+
+			<table>
+				<center><h2> (3) How important is temporal information? </h2></center>
+				(a) Motion features (e.g. optical flows) could capture frame-wise temporal dynamics, leading to better performance of TSN.<br>
+				(b) Temporal dynamics play an important role in FineGym, and TRN could capture it.<br>
+				(c) Performance of TSM drops sharply when the number of testing frames is very different from that in training,
+				while TSN maintains its performance as only temporal average pooling is applied in it.<br>
+				<tr>
+					  <td width=400px>
+					  <center>
+						  <a href="./resources/images/temporal_importance.png"><img class="rounded" src = "./resources/images/temporal_importance.png" width="720px"></img></href></a><br>
+					</center>
+					</td>
+				</tr>
+				<tr>
+					<td align=center width=720px>
+					  <span style="font-size:14px"><i>
+						(a) Per-class performances of TSN with motion and appearance features in 6 element categories. <br>
+						(b) Performances of TRN on the set UB-circles using ordered or shuffled testing frames.<br>
+						(c) Mean-class accuracies of TSM and TSN on Gym99 when trained with 3 frames and tested with more frames.</i>
+					</span>
+					</td>
+				</tr>
+				</table>
+
+			<br>
+
+			<table>
+				<center><h2> (4) Does pre-training on large-scale video datasets help? </h2></center>
+				On FineGym, pre-training on Kinetics is not always helpful.
+				One potential reason is the large gaps in terms of temporal patterns between coarse- and fine-grained actions. 
+				<tr>
+					<td width=400px>
+					<center>
+						<a href="./resources/images/pretrain.png"><img class="rounded" src = "./resources/images/pretrain.png" width="240px"></img></href></a><br>
+					</center>
+					</td>
+				</tr>
+				<tr>
+					<td align=center width=720px>
+					<span style="font-size:14px"><i>
+					Per-class performances of I3D pre-trained on Kinetics and ImageNet in various element categories.</i>
+					</span>
+					</td>
+				</tr>
+				</table>
+		
+		</table>
+	      <br><br>
+		  <hr>
+
 
 		  <table align=center width=720px>
 			<center><h1>Download</h1></center>
@@ -370,7 +497,9 @@
   	              <td width=400px>
   					<left>
 	  		  <center><h1>Acknowledgements</h1></center>
-	  		  
+				We sincerely thank the outstanding annotation team for their excellent work.
+				This work is partially supported by SenseTime Collaborative Grant on Large-scale Multi-modality Analysis
+				and the General Research Funds (GRF) of Hong Kong (No. 14203518 and No. 14205719).
 			</left>
 		</td>
 			 </tr>
