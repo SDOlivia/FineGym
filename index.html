@@ -485,7 +485,14 @@
 					</center>
 				</td>
 				<table>
-				<center><h2> How to read the temporal annotation files (JSON)? </h2></center>
+				<center><h2> Updates </h2></center>
+				[16/04/2020] We fix a small issue on the naming of the subaction identifier "A_{ZZZZ}_{WWWW}" to avoid ambiguity.<br>
+				[16/04/2020] We include new subsections to track updates and address FAQs.<br>
+				<center><h2> FAQs </h2></center>
+				Q1: Is the event-/element-level instance in your dataset cut in integral seconds?<br>
+				A1: No. All levels of instances (actions and sub-actions) are annotated in <i>exact</i> timestamp (milliseconds) 
+				in a pursuit of frame-level preciseness. Please refer to the instructions below for details.
+				<center><h2> How to read the temporal annotation files (JSON)? </h2></center> 
 				Below, we show an example entry from the above JSON annotation file:
 				<pre style='font-family: Courier; font-size:14px'>
 "0LtLS9wROrk": {
@@ -515,7 +522,7 @@
 	"E_002681_002688": {
 		"event": 1,
 		"segments": {
-			"A_0000_0003": {
+			"A_0000_0006": {
 				"stages": 3,
 				"timestamps": [
 					[
@@ -611,19 +618,19 @@
 		 <br><br>
 		 <hr>
 
-		 <table align=center width=720px>
+		 <table align=center width=480px>
 			<center><h1>Paper</h1></center>
 			   <tr>
 				   <!--<td width=300px align=left>-->
 				   <!-- <a href="http://arxiv.org/pdf/1603.08511.pdf"> -->
 				 <td align=center><a href=""><img class="layered-paper-big" style="height:175px" src="./resources/images/paper_pdf_thumb.png"/></a></td>
-				 <!-- <td><span style="font-size:14pt">Shao, Zhao, Dai, Lin.<br>
+				 <td><span style="font-size:14pt">Shao, Zhao, Dai, Lin.<br>
 				 FineGym: A Hierarchical Video Dataset for Fine-grained Action Understanding<br>
 				 In CVPR, 2020 (oral).<br>
-				 (<a href="">arXiv</a>)</a>
+				 (<a href="https://arxiv.org/abs/2004.06704">arXiv</a>)</a>
 				 <span style="font-size:4pt"><a href=""><br></a>
 				 </span>
-				 </td> -->
+				 </td>
 			 </tr>
 		   </table>
 		 
