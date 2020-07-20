@@ -23,7 +23,7 @@
 - 03/2020: The Paper [FineGym: A Hierarchical Video Dataset for Fine-grained Action Understanding] (https://openaccess.thecvf.com/content_CVPR_2020/html/Shao_FineGym_A_Hierarchical_Video_Dataset_for_Fine-Grained_Action_Understanding_CVPR_2020_paper.html) is accepted by CVPR 2020 as an Oral Paper, and we got Three Strong Accepts!
 
 ## Model Zoo
-### Pose Estimation
+### Element-level Action Recognition
 For Gym99 (for details of the subset gym99 & gym288 please refer to the [FineGym Homepage] (https://sdolivia.github.io/FineGym/)) :
 
 <center>
