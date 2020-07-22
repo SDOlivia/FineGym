@@ -65,3 +65,13 @@ For Gym288:
 - To keep the size of each feature file relatively small (mostly 1~2 G per file), the spatial information is pooled, resulting in spatial shape: 1 x 1.
 - Details of model training and results please refer to our paper and supplementary material.
 - Note that for I3D models, the extracted features are dense (i.e. seg=12, 8 frames per seg), since many element-level instances last only for 1~2 seconds.
+
+## Citation
+```
+@inproceedings{shao2020finegym,
+title={FineGym: A Hierarchical Video Dataset for Fine-grained Action Understanding},
+author={Shao, Dian and Zhao, Yue and Dai, Bo and Lin, Dahua},
+booktitle={IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+year={2020}
+}
+```
