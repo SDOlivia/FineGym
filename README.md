@@ -17,7 +17,7 @@
 </div>
 
 ## News!
-- 07/2020: We release pre-extracted features of FineGym dataset from 20 models for you to choose freely! See the following for more details!
+- 07/2020: We release **pre-extracted features of FineGym dataset from 20 models** for you to choose freely! See the following for more details!
 - 05/2020: Talks and Demo about FineGym can all be found here: [FineGym Youtube Playlist](https://www.youtube.com/playlist?list=PL2wRKCL5yrJRBnIxWhmVr3xLJahdK5DGJ).
 - 04/2020: Annotations of FineGym Dataset are released! Please refer to [FineGym Homepage](https://sdolivia.github.io/FineGym/) for more details!
 - 03/2020: The Paper [FineGym: A Hierarchical Video Dataset for Fine-grained Action Understanding](https://openaccess.thecvf.com/content_CVPR_2020/html/Shao_FineGym_A_Hierarchical_Video_Dataset_for_Fine-Grained_Action_Understanding_CVPR_2020_paper.html) is accepted by CVPR 2020 as an Oral Paper, and we got Three Strong Accepts!
