@@ -533,7 +533,11 @@
 				A2: No. All levels of instances (actions and sub-actions) are annotated in <i>exact</i> timestamp (milliseconds) 
 				in a pursuit of frame-level preciseness.
 				The number in the identifier is derived from integral seconds due to conciseness.
-				Please refer to the instructions below for details.
+				Please refer to the instructions below for details.<br>
+				Q3: Difference of Mean and Top-1 accuracy in Table 2 & 3?<br>
+				A3: The Top-K accuracy is the fraction of the instances whose correct label falls in the top-k most confident predictions. In our case we take K=1.<br>
+				The mean accuracy is the averaged per-class accuracy. To be specific, we calculate the top-1 accuracy of each class i to be A_i.
+				The mean accuracy is the arithmetic mean of A_{1...N}, i.e. (A_1 + A_2 + ... + A_N)/N, where N is the number of classes.
 				<center><h2> How to read the temporal annotation files (JSON)? </h2></center> 
 				Below, we show an example entry from the above JSON annotation file:
 				<pre style='font-family: Courier; font-size:14px'>
