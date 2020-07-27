@@ -206,8 +206,40 @@
 
   		  </table>
       	  <br><br>
-		  <hr>
 
+		  <table align=center width=720px>
+			<!-- <center><h1>Download</h1></center> -->
+			<tr>
+				<td width=300px>
+					<center>
+						<a href="#download"><img class="rounded" onmouseover="this.src='./resources/images/data_icon.png';" onmouseout="this.src='./resources/images/data_icon.png';" src = "./resources/images/data_icon.png" height = "120px"></a><br>
+						<span style="font-size:16px">Download (annotations)</span><br>
+					</center>
+				</td>
+				<td width=300px>
+					<center>
+						<a href="#video"><img class="rounded" onmouseover="this.src='./resources/images/video_icon.png';" onmouseout="this.src='./resources/images/video_icon.png';" src = "./resources/images/video_icon.png" height = "120px"></a><br>
+						<span style="font-size:16px">Videos at CVPR'2020</span><br>
+					</center>
+				</td>
+				<td width=300px>
+					<center>
+						<a href="#analysis"><img class="rounded" onmouseover="this.src='./resources/images/magnify_glass.png';" onmouseout="this.src='./resources/images/magnify_glass.png';" src = "./resources/images/magnify_glass.png" height = "120px"></a><br>
+						<span style="font-size:16px">Analysis</span><br>
+					</center>
+				</td>
+				<td width=300px>
+					<center>
+					  <a href="https://github.com/SDOlivia/FineGym/"><img class="rounded" onmouseover="this.src='./resources/images/github_icon.png';" onmouseout="this.src='./resources/images/github_icon.png';" src = "./resources/images/github_icon.png" height = "120px"></a><br>
+					  <span style="font-size:16px">GitHub Repo</span><br>						
+					</center>
+				</td>
+			</tr>
+		  </table>
+
+		  <br><br>
+
+		  <hr>
 
   		  <table align=center width=720px>
 				<center><h1>Abstract</h1></center>
@@ -253,7 +285,7 @@
 		   <br><br>
 		  <hr>
 
-		  <table align=center width=720px>
+		  <table id="video" align=center width=720px>
 			<center><h1>5-Minute Oral presentation video</h1></center>
 			<tr>
 				<table align=center width=720px>
@@ -360,7 +392,7 @@
 		  <br><br>
 		  <hr>
 
-		  <table align=center width=720px>
+		  <table id='analysis' align=center width=720px>
 			<center><h1>Empirical Studies and Analysis</h1></center>
 			<table>
 			<center><h2> (1) Element-level action recognition raises great challenges for existing methods. </h2></center>
@@ -519,6 +551,7 @@
 				</td>
 				<table>
 				<center><h2> Updates </h2></center>
+				[23/07/2020] We have made pre-extracted feature available at GitHub. Check out <a href='https://github.com/SDOlivia/FineGym/'>here</a>.<br>
 				[16/04/2020] We fix a small issue on the naming of the subaction identifier "A_{ZZZZ}_{WWWW}" to avoid ambiguity.
 				(Thanks <a href='https://kennymckormick.github.io/'>Haodong Duan</a> for pointing this out.)<br>
 				[16/04/2020] We include new subsections to track updates and address FAQs.<br>
